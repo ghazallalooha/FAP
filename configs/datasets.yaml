@@ -1,0 +1,18 @@
+
+---
+
+## `fap/configs/datasets.yaml`
+```yaml
+datasets:
+  # CMMD
+  cmmd_dicom: "/data/CMMD/DICOM"
+  cmmd_excel: "/data/CMMD/CMMD_clinicaldata_revision.xlsx"
+  cmmd_processed: "/data/CMMD/processed"
+
+  # BREAST
+  breast_images: "/data/BREAST/images"
+  breast_csv: "/data/BREAST/labels.csv"
+
+  # CBIS-DDSM (processed paths after conversion)
+  cbis_dicom: "/data/CBIS_DDSM/processed/images_png"
+  cbis_labels_csv: "/data/CBIS_DDSM/processed/test/test_labels.csv"
